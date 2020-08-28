@@ -18,5 +18,6 @@ public class CameraFollow : MonoBehaviour
     void Update()
     {
         transform.position = target.transform.position + offset;
+        transform.LookAt(target.transform);
     }
 }
