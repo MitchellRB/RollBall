@@ -479,6 +479,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1266725319 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5338981755271275597, guid: a9491818456b0a74b86ea9487e3f0aeb,
+    type: 3}
+  m_PrefabInstance: {fileID: 540947233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &1316167166
 Mesh:
   m_ObjectHideFlags: 0
@@ -752,6 +764,11 @@ PrefabInstance:
       propertyPath: NextLevel
       value: SampleScene
       objectReference: {fileID: 0}
+    - target: {fileID: 2967999737507870683, guid: c657d2ed0cf7ad6408682b92c44f51c0,
+        type: 3}
+      propertyPath: loadingText
+      value: 
+      objectReference: {fileID: 1266725319}
     - target: {fileID: 4064518606710742879, guid: c657d2ed0cf7ad6408682b92c44f51c0,
         type: 3}
       propertyPath: m_LocalPosition.x
