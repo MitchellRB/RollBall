@@ -5,7 +5,7 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class CameraFollow : MonoBehaviour
 {
-    public Transform target;
+    public GameObject target;
     public Vector3 offset;
 
     // Start is called before the first frame update
@@ -17,7 +17,6 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = target.position + offset;
-        transform.LookAt(target);
+        transform.position = target.transform.position + offset;
     }
 }

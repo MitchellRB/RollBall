@@ -23,6 +23,6 @@ public class BallController : MonoBehaviour
     {
         cForce.force = new Vector3(Input.GetAxis("Horizontal") * strength, -9.81f, Input.GetAxis("Vertical") * strength);
         cForce.force = cForce.force.normalized;
-        cForce.force = cForce.force * 9.81f;
+        cForce.force *= 9.81f;
     }
 }
